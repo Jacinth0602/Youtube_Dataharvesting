@@ -34,13 +34,13 @@ Youtube_DataScrap.py --> Data harvesting and Warehousing is done in this script
 
 Queries.py --> The questions page is scripted
 
-## Data Harvesting
+## Workflow
 
-Describe the data harvesting process, including any API keys or access tokens required. Provide information on rate limiting, data sources, and any specific considerations users should be aware of.
-
-## Data Warehousing
-
-Explain the data warehousing architecture and how users can set up their own data warehouse using the harvested YouTube data. Include details on data modeling, storage considerations, and data retrieval methods.
+Create a strealit Application with 'streamlit' package
+Using API requests collect YouTube data such as Channel, Playlist, Video and Comment data.
+Upload the YouTube data into MongoDB using the 'pymongo' package
+Migrate the data in MongoDB to POSTGRE SQL tables.
+Develop SQL queries within the Streamlit app to retrieve specific information from the SQL database.
 
 ## Contributing
 
