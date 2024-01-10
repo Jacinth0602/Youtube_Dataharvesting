@@ -22,14 +22,16 @@ install all the below packages with pip install in terminal.
 
 Code requires Youtube API Key from google Youtube developer.
 
-https://developers.google.com/youtube/v3/getting-started
+**https://developers.google.com/youtube/v3/getting-started**
 
-##Files included
+## Files included
 
 These are multipage Streamlit applications (Run only main.py)
 
 main.py --> The executable file
+
 Youtube_DataScrap.py --> Data harvesting and Warehousing is done in this script
+
 Queries.py --> The questions page is scripted
 
 ## Data Harvesting
